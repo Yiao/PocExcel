@@ -1,0 +1,70 @@
+<header class="ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500">
+    <img width="90" height="90" src="../../../assets/logo-filled.png" alt="Contoso Task Pane Add-in" title="Contoso Task Pane Add-in" />
+    <h1 class="ms-fontSize-su ms-fontWeight-light ms-fontColor-neutralPrimary">{{welcomeMessage}}</h1>
+</header>
+<main class="ms-welcome__main">
+    <h2 class="ms-font-xl ms-fontWeight-semilight ms-fontColor-neutralPrimary ms-u-slideUpIn20"> Discover what Office Add-ins can do for you today! </h2>
+    <ul class="ms-List ms-welcome__features ms-u-slideUpIn10">
+        <li class="ms-ListItem">
+            <i class="ms-Icon ms-Icon--Ribbon"></i>
+            <span class="ms-font-m ms-fontColor-neutralPrimary">Achieve more with Office integration</span>
+        </li>
+        <li class="ms-ListItem">
+            <i class="ms-Icon ms-Icon--Unlock"></i>
+            <span class="ms-font-m ms-fontColor-neutralPrimary">Unlock features and functionality</span>
+        </li>
+        <li class="ms-ListItem">
+            <i class="ms-Icon ms-Icon--Design"></i>
+            <span class="ms-font-m ms-fontColor-neutralPrimary">Create and visualize like a pro</span>
+        </li>
+    </ul>
+    <br />
+    <br />
+    <p class="ms-font-l">Modify the source files, then click <b>Run</b>.</p>
+    <button role="button" class="ms-Button" (click)="run()">
+        <span class="ms-Button-label">Run</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </button>
+
+    <p class="ms-font-l">Ajouter une onglet SimpleSheet et ajouter une table<b>Add table</b>.</p>
+    <button role="button" class="ms-Button" (click)="addTable()">
+        <span class="ms-Button-label">Add table</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </button>
+
+    <p class="ms-font-l">Supprimer la dernière onglet <b>Delete Last Sheet</b>.</p>
+    <button role="button" class="ms-Button" (click)="deleteWorksheet()">
+        <span class="ms-Button-label">Delete Last Sheet</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </button>
+
+    <p class="ms-font-l">Filtre test <b>Filtre</b>.</p>
+    <button role="button" class="ms-Button" (click)="filter()">
+        <span class="ms-Button-label">Filtre</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </button>
+
+    <p class="ms-font-l">Chart test <b>Create Chart</b>.</p>
+    <button role="button" class="ms-Button" (click)="createChart()">
+        <span class="ms-Button-label">Create Chart</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </button>
+
+    <p class="ms-font-l">Insert cell with some style In Sheet Test <b>Insert Cell</b>.</p>
+    <button role="button" class="ms-Button" (click)="insertCell()">
+        <span class="ms-Button-label">Insert Cell</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </button>
+
+    <p class="ms-font-l">Call API <b>Call Get API</b>.</p>
+    <button role="button" class="ms-Button" (click)="callHttpGetApiBack()">
+        <span class="ms-Button-label">Call Get API</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </button>
+
+    <p class="ms-font-l">Call Post API <b>Call Post API</b>.</p>
+    <button role="button" class="ms-Button" (click)="callHttpPostApiBack()">
+        <span class="ms-Button-label">Call Post API</span>
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+    </button>
+</main>
