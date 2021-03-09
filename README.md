@@ -1,5 +1,20 @@
 # Office-Addin-TaskPane-Angular
+
+1. You need install packages with npm 
+```
+npm install
+```
  
+2. when it ask you to add certificat, select "yes" 
+
+3. Start application with npm
+```
+npm start
+```
+
+4. Run back service [PocExcelBackService](https://github.com/Yiao/PocExcelBackService)
+Fellow the readme.md in [PocExcelBackService](https://github.com/Yiao/PocExcelBackService/blob/main/README.md)
+
 This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. You can also use this repository as a sample to base your own project from if you choose not to use the generator. 
 
 ## TypeScript
