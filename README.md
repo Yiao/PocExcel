@@ -15,6 +15,8 @@ npm start
 4. Run back service [PocExcelBackService](https://github.com/Yiao/PocExcelBackService)
 Fellow the readme.md in [PocExcelBackService](https://github.com/Yiao/PocExcelBackService/blob/main/README.md)
 
+5. debug : https://github.com/OfficeDev/office-js-docs-pr/blob/master/docs/testing/debug-office-add-ins-on-ipad-and-mac.md
+
 This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. You can also use this repository as a sample to base your own project from if you choose not to use the generator. 
 
 ## TypeScript
