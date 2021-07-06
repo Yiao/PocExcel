@@ -17,6 +17,8 @@ Fellow the readme.md in [PocExcelBackService](https://github.com/Yiao/PocExcelBa
 
 5. debug : https://github.com/OfficeDev/office-js-docs-pr/blob/master/docs/testing/debug-office-add-ins-on-ipad-and-mac.md
 
+6. sideload : [How to sideload application](https://docs.microsoft.com/fr-fr/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)
+
 This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. You can also use this repository as a sample to base your own project from if you choose not to use the generator. 
 
 ## TypeScript
