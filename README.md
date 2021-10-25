@@ -4,12 +4,30 @@
 ```
 npm install
 ```
- 
+
 2. when it ask you to add certificat, select "yes" 
 
 3. Start application with npm
 ```
 npm start
+```
+when you get this error with npm start
+```
+> office-addin-taskpane-js@0.0.1 start E:\My Office Add-in
+> office-addin-debugging start manifest.xml
+
+Debugging is being started...
+App type: desktop
+Enabled debugging for add-in af71531f-d6c5-4ff3-854d-7b8dc52e3dcd. Debug method: 0
+Starting the dev server... (webpack-dev-server --mode development)
+Unable to start the dev server. Error: The dev server is not running on port 3000.
+Sideloading the Office Add-in...
+Debugging started.
+```
+
+just run with
+```
+sudo npm install
 ```
 
 4. Run back service [PocExcelBackService](https://github.com/Yiao/PocExcelBackService)
