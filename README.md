@@ -44,6 +44,11 @@ This repository contains the source code used by the [Yo Office generator](https
 This template is written using [TypeScript](http://www.typescriptlang.org/). For the JavaScript version of this template, go to [Office-Addin-TaskPane-Angular-JS](https://github.com/OfficeDev/Office-Addin-TaskPane-Angular-JS).
 
 ## Debugging
+when you got run issus, you could try to run thoese commandes:
+```
+npm uninstall - g office-addin-debugging
+npm install - g office-addin-debugging
+```
 
 This template supports debugging using any of the following techniques:
 
